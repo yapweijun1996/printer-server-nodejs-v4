@@ -1,0 +1,18 @@
+2025-07-24 10:55:54 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 10:55:54 INFO: Endpoints available:
+2025-07-24 10:55:54 INFO:   - GET /api/printers
+2025-07-24 10:55:54 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 10:55:54 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 10:56:53 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 10:56:53 INFO: Endpoints available:
+2025-07-24 10:56:53 INFO:   - GET /api/printers
+2025-07-24 10:56:53 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 10:56:53 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 10:56:59 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:56:59 INFO: Received data for /api/print-html
+2025-07-24 10:57:03 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:57:20 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 10:57:20 INFO: Endpoints available:
+2025-07-24 10:57:20 INFO:   - GET /api/printers
+2025-07-24 10:57:20 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 10:57:20 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
