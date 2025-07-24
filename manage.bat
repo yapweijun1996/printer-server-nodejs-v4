@@ -1,6 +1,9 @@
 @echo off
 setlocal
 
+REM === Change directory to the script location ===
+cd /d "%~dp0"
+
 REM Set the name for the PM2 process from the ecosystem file
 set "PM2_APP_NAME=print-server"
 
@@ -89,7 +92,15 @@ if %errorLevel% neq 0 (
     goto menu
 )
 echo.
-echo Server started. Use option [5] to check its status.
+echo Server started. Saving PM2 process list for auto-startup...
+call pm2 save
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to save the process list. Please check the output above.
+    pause
+    goto menu
+)
+echo.
+echo Server started and auto-start is now active. Use option [5] to check its status.
 pause
 goto menu
 
@@ -129,14 +140,21 @@ pause
 goto menu
 
 :startup_on
-echo --- Enabling auto-startup on system reboot ---
+echo --- Enabling auto-startup on system reboot (Windows only) ---
 echo.
-echo 1. Registering PM2 to run on startup...
-call pm2 startup
+echo 1. Installing the Windows PM2 startup service...
+call pm2 install pm2-windows-startup
 if %errorLevel% neq 0 (
-    echo [ERROR] Failed to register the startup service. Please check the output above.
+    echo [ERROR] Failed to install pm2-windows-startup. Please check the output above.
     pause
     goto menu
+)
+echo.
+REM Check if the app is already running, otherwise start it
+call pm2 list | findstr /I "%PM2_APP_NAME%" >nul
+if %errorLevel% neq 0 (
+    echo [INFO] PM2 process '%PM2_APP_NAME%' not found. Starting it now...
+    call npm run start:prod
 )
 echo.
 echo 2. Saving current process list to run on startup...
@@ -147,20 +165,20 @@ if %errorLevel% neq 0 (
     goto menu
 )
 echo.
-echo Auto-startup has been enabled.
+echo Auto-startup has been enabled for Windows and current app.
 pause
 goto menu
 
 :startup_off
-echo --- Disabling auto-startup on system reboot ---
-call pm2 unstartup
+echo --- Disabling auto-startup on system reboot (Windows only) ---
+call npx pm2-windows-startup uninstall
 if %errorLevel% neq 0 (
-    echo [ERROR] Failed to disable the startup service. Please check the output above.
+    echo [ERROR] Failed to uninstall the PM2 startup service. Please check the output above.
     pause
     goto menu
 )
 echo.
-echo Auto-startup has been disabled.
+echo Auto-startup has been disabled for Windows.
 pause
 goto menu
 
