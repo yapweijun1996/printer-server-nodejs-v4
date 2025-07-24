@@ -247,45 +247,9 @@ Prints an existing PDF provided as a Base64-encoded string.
     ```
 
 
-## Production Deployment with Docker (Recommended)
+## Production Deployment with PM2
 
-Using Docker is the recommended method for both production deployment and local development. It creates a consistent, isolated environment, simplifying setup and eliminating "it works on my machine" problems.
-
-### Prerequisites
-
-- [Docker Desktop](https://www.docker.com/products/docker-desktop) installed on your Windows, macOS, or Linux machine.
-
-### One-Command Startup
-
-1.  **Open a terminal** in the project's root directory.
-2.  **Run the following command:**
-    ```bash
-    docker-compose up --build
-    ```
-
-That's it. Docker will build the image, install all dependencies, and start the print server. The server will be accessible at `http://localhost:3000`.
-
-### Managing the Server with Docker
-
--   **To stop the server**, press `Ctrl+C` in the terminal.
--   **To run in the background (detached mode)**:
-    ```bash
-    docker-compose up -d
-    ```
--   **To view logs (in detached mode)**:
-    ```bash
-    docker-compose logs -f
-    ```
--   **To stop the detached server**:
-    ```bash
-    docker-compose down
-    ```
-
----
-
-## Legacy Deployment with PM2 (Alternative)
-
-This method is for users who prefer not to use Docker.
+For running this server in a production environment, using a process manager like [PM2](https://pm2.keymetrics.io/) is highly recommended. PM2 keeps your server online by automatically restarting it if it crashes and provides tools for monitoring and managing the process.
 
 ### Easy Management with `manage.bat` (For Windows Users)
 
