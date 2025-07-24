@@ -1,0 +1,77 @@
+2025-07-24 14:39:13 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 14:39:13 INFO: Endpoints available:
+2025-07-24 14:39:13 INFO:   - GET /api/printers
+2025-07-24 14:39:13 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 14:39:13 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 14:39:42 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 14:39:42 INFO: Received data for /api/print-html
+2025-07-24 14:40:14 ERROR: Error during Puppeteer printing
+2025-07-24 14:40:14 ERROR: TimeoutError: Timed out after waiting 30000ms
+    at file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/puppeteer/common/util.js:251:19
+    at file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1936:31
+    at OperatorSubscriber2._this._next (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:993:9)
+    at Subscriber2.next (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:696:12)
+    at AsyncAction2.<anonymous> (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:2280:20)
+    at AsyncAction2._execute (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1360:12)
+    at AsyncAction2.execute (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1349:22)
+    at AsyncScheduler2.flush (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1427:26)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-07-24 14:40:37 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 14:40:37 INFO: Received data for /api/print-html
+2025-07-24 14:41:07 ERROR: Error during Puppeteer printing
+2025-07-24 14:41:07 ERROR: TimeoutError: Timed out after waiting 30000ms
+    at file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/puppeteer/common/util.js:251:19
+    at file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1936:31
+    at OperatorSubscriber2._this._next (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:993:9)
+    at Subscriber2.next (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:696:12)
+    at AsyncAction2.<anonymous> (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:2280:20)
+    at AsyncAction2._execute (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1360:12)
+    at AsyncAction2.execute (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1349:22)
+    at AsyncScheduler2.flush (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v4/node_modules/puppeteer-core/lib/esm/third_party/rxjs/rxjs.js:1427:26)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-07-24 14:44:14 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 14:44:14 INFO: Endpoints available:
+2025-07-24 14:44:14 INFO:   - GET /api/printers
+2025-07-24 14:44:14 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 14:44:14 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 14:45:46 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 14:45:46 INFO: Endpoints available:
+2025-07-24 14:45:46 INFO:   - GET /api/printers
+2025-07-24 14:45:46 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 14:45:46 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 14:48:46 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 14:48:46 INFO: Endpoints available:
+2025-07-24 14:48:46 INFO:   - GET /api/printers
+2025-07-24 14:48:46 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 14:48:46 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 14:54:45 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 14:54:45 INFO: Endpoints available:
+2025-07-24 14:54:45 INFO:   - GET /api/printers
+2025-07-24 14:54:45 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 14:54:45 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 14:55:17 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 14:55:17 INFO: Received data for /api/print-html
+2025-07-24 14:55:21 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 14:57:10 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 14:57:10 INFO: Endpoints available:
+2025-07-24 14:57:10 INFO:   - GET /api/printers
+2025-07-24 14:57:10 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 14:57:10 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 14:57:25 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 14:57:25 INFO: Received data for /api/print-html
+2025-07-24 14:57:28 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 15:09:19 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 15:09:19 INFO: Endpoints available:
+2025-07-24 15:09:19 INFO:   - GET /api/printers
+2025-07-24 15:09:19 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 15:09:19 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 15:09:39 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 15:09:39 INFO: Received data for /api/print-html
+2025-07-24 15:09:43 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 15:12:08 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 15:12:08 INFO: Endpoints available:
+2025-07-24 15:12:08 INFO:   - GET /api/printers
+2025-07-24 15:12:08 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 15:12:08 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
