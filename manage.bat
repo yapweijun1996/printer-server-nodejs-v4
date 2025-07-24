@@ -66,6 +66,9 @@ echo.
 echo --- 2. Installing PM2 globally...
 call npm install pm2 -g
 echo.
+echo --- 3. Installing PM2 Windows Startup globally...
+call npm install pm2-windows-startup -g
+echo.
 echo Installation complete.
 pause
 goto menu
@@ -106,8 +109,8 @@ goto menu
 :startup_on
 echo --- Enabling auto-startup on system reboot ---
 echo.
-echo 1. Generating startup script...
-call pm2 startup
+echo 1. Installing the startup service...
+call pm2-startup install
 echo.
 echo 2. Saving current process list to run on startup...
 call pm2 save
@@ -118,7 +121,7 @@ goto menu
 
 :startup_off
 echo --- Disabling auto-startup on system reboot ---
-call pm2 unstartup
+call pm2-startup uninstall
 echo.
 echo Auto-startup has been disabled.
 pause
