@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  print-server:
+    # Build the Docker image from the Dockerfile in the current directory
+    build: .
+    # Name the container for easier management
+    container_name: print-server-container
+    # Restart the container automatically if it stops
+    restart: always
+    # Map port 3000 on the host to port 3000 in the container
+    ports:
+      - "3000:3000"
+    # Mount the local logs directory into the container to persist logs
+    volumes:
+      - ./Server/logs:/usr/src/app/Server/logs
+    environment:
+      - NODE_ENV=production
