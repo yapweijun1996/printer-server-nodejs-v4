@@ -16,3 +16,19 @@
 2025-07-24 10:57:20 INFO:   - GET /api/printers
 2025-07-24 10:57:20 INFO:   - POST /api/print-html (High Quality, Selectable Text)
 2025-07-24 10:57:20 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 11:01:25 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 11:01:25 INFO: Endpoints available:
+2025-07-24 11:01:25 INFO:   - GET /api/printers
+2025-07-24 11:01:25 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 11:01:25 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 11:01:33 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 11:01:33 INFO: Endpoints available:
+2025-07-24 11:01:33 INFO:   - GET /api/printers
+2025-07-24 11:01:33 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 11:01:33 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 11:01:37 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 11:01:37 INFO: Endpoints available:
+2025-07-24 11:01:37 INFO:   - GET /api/printers
+2025-07-24 11:01:37 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 11:01:37 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 11:01:46 INFO: Successfully retrieved printer list.
