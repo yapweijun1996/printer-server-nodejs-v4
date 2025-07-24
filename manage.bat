@@ -4,6 +4,14 @@ setlocal
 REM Set the name for the PM2 process from the ecosystem file
 set "PM2_APP_NAME=print-server"
 
+REM Check for administrator privileges
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    set "isAdmin=false"
+) else (
+    set "isAdmin=true"
+)
+
 :menu
 cls
 echo =================================================================
@@ -17,8 +25,8 @@ echo  [2] Start Server (Production)
 echo  [3] Stop Server
 echo  [4] Restart Server
 echo  [5] View Server Status and Logs
-echo  [6] Enable Auto-Startup on Reboot
-echo  [7] Disable Auto-Startup on Reboot
+echo  [6] Enable Auto-Startup on Reboot (Requires Admin)
+echo  [7] Disable Auto-Startup on Reboot (Requires Admin)
 echo  [8] Delete Server from PM2
 echo.
 echo  [0] Exit
@@ -30,8 +38,20 @@ if "%choice%"=="2" goto start
 if "%choice%"=="3" goto stop
 if "%choice%"=="4" goto restart
 if "%choice%"=="5" goto status
-if "%choice%"=="6" goto startup_on
-if "%choice%"=="7" goto startup_off
+if "%choice%"=="6" (
+    if "%isAdmin%"=="false" (
+        goto admin_required
+    ) else (
+        goto startup_on
+    )
+)
+if "%choice%"=="7" (
+    if "%isAdmin%"=="false" (
+        goto admin_required
+    ) else (
+        goto startup_off
+    )
+)
 if "%choice%"=="8" goto delete
 if "%choice%"=="0" goto :eof
 
@@ -113,5 +133,17 @@ if /i "%confirm%" neq "y" goto menu
 call pm2 delete %PM2_APP_NAME%
 echo.
 echo Server has been deleted from PM2.
+pause
+goto menu
+
+:admin_required
+echo.
+echo =================================== WARNING ===================================
+echo.
+echo  This option requires administrator privileges to run correctly.
+echo  Please right-click on 'manage.bat' and select 'Run as administrator'.
+echo.
+echo ===============================================================================
+echo.
 pause
 goto menu
