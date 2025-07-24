@@ -140,7 +140,7 @@ goto menu
 echo --- Enabling auto-startup on system reboot ---
 echo.
 echo 1. Installing the startup service...
-call pm2-startup install
+call npx pm2-startup install
 if %errorLevel% neq 0 (
     echo [ERROR] Failed to install the startup service. Please check the output above.
     pause
@@ -161,7 +161,7 @@ goto menu
 
 :startup_off
 echo --- Disabling auto-startup on system reboot ---
-call pm2-startup uninstall
+call npx pm2-startup uninstall
 if %errorLevel% neq 0 (
     echo [ERROR] Failed to uninstall the startup service. Please check the output above.
     pause
