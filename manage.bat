@@ -76,14 +76,6 @@ if %errorLevel% neq 0 (
     goto menu
 )
 echo.
-echo --- 3. Installing PM2 Windows Startup globally...
-call npm install pm2-windows-startup -g
-if %errorLevel% neq 0 (
-    echo [ERROR] Failed to install pm2-windows-startup. Please check the output above.
-    pause
-    goto menu
-)
-echo.
 echo Installation complete.
 pause
 goto menu
@@ -139,10 +131,10 @@ goto menu
 :startup_on
 echo --- Enabling auto-startup on system reboot ---
 echo.
-echo 1. Installing the startup service...
-call npx pm2-startup install
+echo 1. Registering PM2 to run on startup...
+call pm2 startup
 if %errorLevel% neq 0 (
-    echo [ERROR] Failed to install the startup service. Please check the output above.
+    echo [ERROR] Failed to register the startup service. Please check the output above.
     pause
     goto menu
 )
@@ -161,9 +153,9 @@ goto menu
 
 :startup_off
 echo --- Disabling auto-startup on system reboot ---
-call npx pm2-startup uninstall
+call pm2 unstartup
 if %errorLevel% neq 0 (
-    echo [ERROR] Failed to uninstall the startup service. Please check the output above.
+    echo [ERROR] Failed to disable the startup service. Please check the output above.
     pause
     goto menu
 )
