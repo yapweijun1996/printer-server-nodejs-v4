@@ -82,8 +82,8 @@ export const printHtml = async (req, res, next) => {
         });
         return next(error); // Pass error to the centralized handler
     } finally {
-        //if (page) await page.close();
-        //if (tempFilePath) await fs.promises.unlink(tempFilePath).catch(err => logger.error(`Failed to delete temp file ${tempFilePath}: ${err.message}`));
+        if (page) await page.close();
+        if (tempFilePath) await fs.promises.unlink(tempFilePath).catch(err => logger.error(`Failed to delete temp file ${tempFilePath}: ${err.message}`));
     }
 };
 
