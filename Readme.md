@@ -251,16 +251,29 @@ Prints an existing PDF provided as a Base64-encoded string.
 
 For running this server in a production environment, using a process manager like [PM2](https://pm2.keymetrics.io/) is highly recommended. PM2 keeps your server online by automatically restarting it if it crashes and provides tools for monitoring and managing the process.
 
+### Easy Management with `manage.bat` (For Windows Users)
+
+This project includes a `manage.bat` script to simplify all common tasks for Windows users. Simply double-click the file and choose an option from the menu.
+
+**Available Options:**
+-   **Install Dependencies**: Runs `npm install` and installs PM2 globally.
+-   **Start Server**: Starts the server in production mode using PM2.
+-   **Stop/Restart/Delete Server**: Manages the running server instance.
+-   **View Logs**: Displays the latest logs.
+-   **Enable/Disable Auto-Startup**: Configures the server to run automatically when the system boots.
+
+### Manual Management (For All Platforms)
+
 This project includes a pre-configured PM2 setup. Here’s a step-by-step guide to get it running.
 
-### Step 1: Install PM2
+#### Step 1: Install PM2
 
 If you don't already have PM2, install it globally using npm:
 ```bash
 npm install pm2 -g
 ```
 
-### Step 2: Start the Application
+#### Step 2: Start the Application
 
 The project includes an `ecosystem.config.cjs` file at the project root, which is the standard configuration file for PM2.
 
@@ -271,7 +284,7 @@ npm run start:prod
 ```
 This command executes `npx pm2 start ecosystem.config.cjs` and will launch the server in the background.
 
-### Step 3: Manage the Application
+#### Step 3: Manage the Application
 
 Once the server is running, you can manage it with these commands, all run from the **project root directory**:
 
