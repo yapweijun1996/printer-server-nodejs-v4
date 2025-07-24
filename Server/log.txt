@@ -1,0 +1,231 @@
+2025-07-23 15:03:34 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:03:34 INFO: Endpoints available:
+2025-07-23 15:03:34 INFO:   - GET /api/printers
+2025-07-23 15:03:34 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:03:34 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:03:39 INFO: Successfully retrieved printer list.
+2025-07-23 15:03:50 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:03:50 INFO: Endpoints available:
+2025-07-23 15:03:50 INFO:   - GET /api/printers
+2025-07-23 15:03:50 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:03:50 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:03:55 INFO: Successfully retrieved printer list.
+2025-07-23 15:04:12 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:04:15 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-23 15:04:44 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:04:45 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-23 15:07:34 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:07:34 INFO: Endpoints available:
+2025-07-23 15:07:34 INFO:   - GET /api/printers
+2025-07-23 15:07:34 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:07:34 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:08:33 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:08:33 INFO: Endpoints available:
+2025-07-23 15:08:33 INFO:   - GET /api/printers
+2025-07-23 15:08:33 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:08:33 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:08:37 INFO: Successfully retrieved printer list.
+2025-07-23 15:09:59 INFO: Successfully processed base64 print job for CutePDF Writer.
+2025-07-23 15:10:13 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:10:23 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-23 15:13:28 INFO: Successfully retrieved printer list.
+2025-07-23 15:13:32 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:13:34 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-23 15:14:58 INFO: Successfully retrieved printer list.
+2025-07-23 15:15:07 INFO: Successfully processed base64 print job for default.
+2025-07-23 15:15:24 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:15:29 INFO: Successfully processed print job for default.
+2025-07-23 15:24:12 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:24:12 INFO: Endpoints available:
+2025-07-23 15:24:12 INFO:   - GET /api/printers
+2025-07-23 15:24:12 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:24:12 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:24:50 INFO: Successfully processed base64 print job for CutePDF Writer.
+2025-07-23 15:25:31 INFO: Successfully processed base64 print job for CutePDF Writer.
+2025-07-23 15:51:12 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:51:12 INFO: Endpoints available:
+2025-07-23 15:51:12 INFO:   - GET /api/printers
+2025-07-23 15:51:12 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:51:12 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:51:12 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:51:12 INFO: Received data for /api/print-html
+2025-07-23 15:51:16 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-23 15:52:02 INFO: Successfully retrieved printer list.
+2025-07-24 09:07:48 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:07:48 INFO: Endpoints available:
+2025-07-24 09:07:48 INFO:   - GET /api/printers
+2025-07-24 09:07:48 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:07:48 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:09:14 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:09:14 INFO: Received data for /api/print-html
+2025-07-24 09:09:18 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:11:26 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:11:26 INFO: Endpoints available:
+2025-07-24 09:11:26 INFO:   - GET /api/printers
+2025-07-24 09:11:26 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:11:26 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:11:30 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:11:30 INFO: Received data for /api/print-html
+2025-07-24 09:11:34 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:12:25 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:12:25 INFO: Endpoints available:
+2025-07-24 09:12:25 INFO:   - GET /api/printers
+2025-07-24 09:12:25 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:12:25 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:12:30 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:12:30 INFO: Received data for /api/print-html
+2025-07-24 09:12:33 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:16:25 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:16:25 INFO: Endpoints available:
+2025-07-24 09:16:25 INFO:   - GET /api/printers
+2025-07-24 09:16:25 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:16:25 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:16:29 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:16:29 INFO: Received data for /api/print-html
+2025-07-24 09:16:31 ERROR: Error during Puppeteer printing
+2025-07-24 09:16:31 ERROR: TypeError: options.format.toLowerCase is not a function
+    at parsePDFOptions (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/node_modules/puppeteer-core/lib/esm/puppeteer/common/util.js:293:52)
+    at CdpPage.createPDFStream (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:762:279)
+    at CdpPage.pdf (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:801:37)
+    at printHtml (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/controllers/print.controller.js:64:38)
+2025-07-24 09:17:46 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:17:46 INFO: Endpoints available:
+2025-07-24 09:17:46 INFO:   - GET /api/printers
+2025-07-24 09:17:46 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:17:46 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:17:51 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:17:51 INFO: Received data for /api/print-html
+2025-07-24 09:17:56 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:19:33 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:19:34 INFO: Endpoints available:
+2025-07-24 09:19:34 INFO:   - GET /api/printers
+2025-07-24 09:19:34 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:19:34 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:19:43 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:19:43 INFO: Received data for /api/print-html
+2025-07-24 09:19:47 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:20:38 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:20:38 INFO: Received data for /api/print-html
+2025-07-24 09:20:40 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:21:32 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:21:32 INFO: Endpoints available:
+2025-07-24 09:21:32 INFO:   - GET /api/printers
+2025-07-24 09:21:32 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:21:32 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:21:35 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:21:35 INFO: Received data for /api/print-html
+2025-07-24 09:21:38 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:27:25 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:27:25 INFO: Received data for /api/print-html
+2025-07-24 09:27:28 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:29:27 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:29:27 INFO: Endpoints available:
+2025-07-24 09:29:27 INFO:   - GET /api/printers
+2025-07-24 09:29:27 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:29:27 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:29:40 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:29:40 INFO: Received data for /api/print-html
+2025-07-24 09:29:44 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:32:10 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:32:10 INFO: Endpoints available:
+2025-07-24 09:32:10 INFO:   - GET /api/printers
+2025-07-24 09:32:10 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:32:10 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:32:28 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:32:28 INFO: Received data for /api/print-html
+2025-07-24 09:32:31 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:33:31 INFO: Successfully retrieved printer list.
+2025-07-24 09:33:58 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:33:58 INFO: Received data for /api/print-html
+2025-07-24 09:34:01 INFO: Successfully processed print job for Canon MF642C/643C/644C UFR II.
+2025-07-24 09:34:24 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:34:24 INFO: Received data for /api/print-html
+2025-07-24 09:34:30 INFO: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 09:39:01 INFO: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:39:01 INFO: Endpoints available:
+2025-07-24 09:39:01 INFO:   - GET /api/printers
+2025-07-24 09:39:01 INFO:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:39:01 INFO:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:42:33 INFO: Processing /api/print-html request from ::ffff:192.168.2.154
+2025-07-24 09:42:33 INFO: Received data for /api/print-html
+2025-07-24 09:42:39 INFO: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 09:46:00 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:46:00 INFO: Received data for /api/print-html
+2025-07-24 09:46:03 INFO: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 09:47:01 INFO: Successfully retrieved printer list.
+2025-07-24 09:47:24 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:47:24 INFO: Received data for /api/print-html
+2025-07-24 09:47:28 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:52:23 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:52:23 INFO: Received data for /api/print-html
+2025-07-24 09:52:26 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:53:07 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:53:07 INFO: Received data for /api/print-html
+2025-07-24 09:53:49 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:54:10 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:54:10 INFO: Received data for /api/print-html
+2025-07-24 09:54:27 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:54:27 INFO: Received data for /api/print-html
+2025-07-24 09:54:52 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:55:10 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:56:09 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:56:09 INFO: Received data for /api/print-html
+2025-07-24 09:56:48 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:57:21 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:57:21 INFO: Received data for /api/print-html
+2025-07-24 09:58:33 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:58:54 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:58:54 INFO: Received data for /api/print-html
+2025-07-24 09:59:37 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:59:46 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:59:46 INFO: Received data for /api/print-html
+2025-07-24 10:00:28 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:00:28 INFO: Received data for /api/print-html
+2025-07-24 10:01:06 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:01:37 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:01:37 INFO: Received data for /api/print-html
+2025-07-24 10:01:49 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:01:49 INFO: Received data for /api/print-html
+2025-07-24 10:02:02 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:03:06 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:03:20 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:03:55 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:03:55 INFO: Received data for /api/print-html
+2025-07-24 10:04:08 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:07:35 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:07:35 INFO: Received data for /api/print-html
+2025-07-24 10:07:49 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:11:09 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:11:09 INFO: Received data for /api/print-html
+2025-07-24 10:11:19 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:14:23 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:14:23 INFO: Received data for /api/print-html
+2025-07-24 10:14:24 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:15:03 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:15:03 INFO: Received data for /api/print-html
+2025-07-24 10:15:05 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:16:14 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:16:14 INFO: Received data for /api/print-html
+2025-07-24 10:16:16 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:16:19 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:16:19 INFO: Received data for /api/print-html
+2025-07-24 10:16:20 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:16:38 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:16:38 INFO: Received data for /api/print-html
+2025-07-24 10:16:40 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:17:04 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:17:04 INFO: Received data for /api/print-html
+2025-07-24 10:17:06 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:17:50 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:17:50 INFO: Received data for /api/print-html
+2025-07-24 10:17:52 INFO: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:18:26 INFO: Successfully retrieved printer list.
+2025-07-24 10:19:43 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:19:43 INFO: Received data for /api/print-html
+2025-07-24 10:19:47 INFO: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 10:23:44 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:23:44 INFO: Received data for /api/print-html
+2025-07-24 10:23:48 INFO: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 10:28:00 INFO: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:28:00 INFO: Received data for /api/print-html
+2025-07-24 10:28:02 INFO: Successfully processed print job for CutePDF Writer.

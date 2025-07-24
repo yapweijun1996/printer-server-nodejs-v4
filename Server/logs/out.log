@@ -1,0 +1,206 @@
+2025-07-23 15:24:12: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  suppress all logs with { quiet: true })
+2025-07-23 15:24:12: 2025-07-23 15:24:12 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:24:12: 2025-07-23 15:24:12 [32minfo[39m: Endpoints available:
+2025-07-23 15:24:12: 2025-07-23 15:24:12 [32minfo[39m:   - GET /api/printers
+2025-07-23 15:24:12: 2025-07-23 15:24:12 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:24:12: 2025-07-23 15:24:12 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:24:50: 2025-07-23 15:24:50 [32minfo[39m: Successfully processed base64 print job for CutePDF Writer.
+2025-07-23 15:25:31: 2025-07-23 15:25:31 [32minfo[39m: Successfully processed base64 print job for CutePDF Writer.
+2025-07-23 15:51:12: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  enable debug logging with { debug: true })
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m: Endpoints available:
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m:   - GET /api/printers
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-23 15:51:12: 2025-07-23 15:51:12 [32minfo[39m: Received data for /api/print-html
+2025-07-23 15:51:16: 2025-07-23 15:51:16 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-23 15:52:02: 2025-07-23 15:52:02 [32minfo[39m: Successfully retrieved printer list.
+2025-07-24 09:07:48: [dotenv@17.2.0] injecting env (1) from .env (tip: 🔐 encrypt with dotenvx: https://dotenvx.com)
+2025-07-24 09:07:48: 2025-07-24 09:07:48 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:07:48: 2025-07-24 09:07:48 [32minfo[39m: Endpoints available:
+2025-07-24 09:07:48: 2025-07-24 09:07:48 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:07:48: 2025-07-24 09:07:48 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:07:48: 2025-07-24 09:07:48 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:09:14: 2025-07-24 09:09:14 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:09:14: 2025-07-24 09:09:14 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:09:18: 2025-07-24 09:09:18 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:11:26: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })
+2025-07-24 09:11:26: 2025-07-24 09:11:26 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:11:26: 2025-07-24 09:11:26 [32minfo[39m: Endpoints available:
+2025-07-24 09:11:26: 2025-07-24 09:11:26 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:11:26: 2025-07-24 09:11:26 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:11:26: 2025-07-24 09:11:26 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:11:30: 2025-07-24 09:11:30 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:11:30: 2025-07-24 09:11:30 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:11:34: 2025-07-24 09:11:34 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:12:25: [dotenv@17.2.0] injecting env (1) from .env (tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`)
+2025-07-24 09:12:25: 2025-07-24 09:12:25 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:12:25: 2025-07-24 09:12:25 [32minfo[39m: Endpoints available:
+2025-07-24 09:12:25: 2025-07-24 09:12:25 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:12:25: 2025-07-24 09:12:25 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:12:25: 2025-07-24 09:12:25 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:12:30: 2025-07-24 09:12:30 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:12:30: 2025-07-24 09:12:30 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:12:33: 2025-07-24 09:12:33 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:16:25: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  write to custom object with { processEnv: myObject })
+2025-07-24 09:16:25: 2025-07-24 09:16:25 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:16:25: 2025-07-24 09:16:25 [32minfo[39m: Endpoints available:
+2025-07-24 09:16:25: 2025-07-24 09:16:25 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:16:25: 2025-07-24 09:16:25 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:16:25: 2025-07-24 09:16:25 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:16:29: 2025-07-24 09:16:29 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:16:29: 2025-07-24 09:16:29 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:16:31: 2025-07-24 09:16:31 [31merror[39m: Error during Puppeteer printing
+2025-07-24 09:16:31: 2025-07-24 09:16:31 [31merror[39m: TypeError: options.format.toLowerCase is not a function
+2025-07-24 09:16:31:     at parsePDFOptions (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/node_modules/puppeteer-core/lib/esm/puppeteer/common/util.js:293:52)
+2025-07-24 09:16:31:     at CdpPage.createPDFStream (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:762:279)
+2025-07-24 09:16:31:     at CdpPage.pdf (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:801:37)
+2025-07-24 09:16:31:     at printHtml (file:///C:/Users/tnoadmin/Documents/YAP%20WEI%20JUN/Project/printer-server-nodejs-v3/Server/controllers/print.controller.js:64:38)
+2025-07-24 09:17:46: [dotenv@17.2.0] injecting env (1) from .env (tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit)
+2025-07-24 09:17:46: 2025-07-24 09:17:46 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:17:46: 2025-07-24 09:17:46 [32minfo[39m: Endpoints available:
+2025-07-24 09:17:46: 2025-07-24 09:17:46 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:17:46: 2025-07-24 09:17:46 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:17:46: 2025-07-24 09:17:46 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:17:51: 2025-07-24 09:17:51 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:17:51: 2025-07-24 09:17:51 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:17:56: 2025-07-24 09:17:56 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:19:33: [dotenv@17.2.0] injecting env (1) from .env (tip: 🔐 encrypt with dotenvx: https://dotenvx.com)
+2025-07-24 09:19:34: 2025-07-24 09:19:33 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:19:34: 2025-07-24 09:19:34 [32minfo[39m: Endpoints available:
+2025-07-24 09:19:34: 2025-07-24 09:19:34 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:19:34: 2025-07-24 09:19:34 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:19:34: 2025-07-24 09:19:34 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:19:43: 2025-07-24 09:19:43 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:19:43: 2025-07-24 09:19:43 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:19:47: 2025-07-24 09:19:47 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:20:38: 2025-07-24 09:20:38 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:20:38: 2025-07-24 09:20:38 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:20:40: 2025-07-24 09:20:40 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:21:32: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })
+2025-07-24 09:21:32: 2025-07-24 09:21:32 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:21:32: 2025-07-24 09:21:32 [32minfo[39m: Endpoints available:
+2025-07-24 09:21:32: 2025-07-24 09:21:32 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:21:32: 2025-07-24 09:21:32 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:21:32: 2025-07-24 09:21:32 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:21:35: 2025-07-24 09:21:35 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:21:35: 2025-07-24 09:21:35 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:21:38: 2025-07-24 09:21:38 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:27:25: 2025-07-24 09:27:25 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:27:25: 2025-07-24 09:27:25 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:27:28: 2025-07-24 09:27:28 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:29:27: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' })
+2025-07-24 09:29:27: 2025-07-24 09:29:27 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:29:27: 2025-07-24 09:29:27 [32minfo[39m: Endpoints available:
+2025-07-24 09:29:27: 2025-07-24 09:29:27 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:29:27: 2025-07-24 09:29:27 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:29:27: 2025-07-24 09:29:27 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:29:41: 2025-07-24 09:29:40 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:29:41: 2025-07-24 09:29:40 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:29:44: 2025-07-24 09:29:44 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:32:10: [dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' })
+2025-07-24 09:32:10: 2025-07-24 09:32:10 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:32:10: 2025-07-24 09:32:10 [32minfo[39m: Endpoints available:
+2025-07-24 09:32:10: 2025-07-24 09:32:10 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:32:10: 2025-07-24 09:32:10 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:32:10: 2025-07-24 09:32:10 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:32:28: 2025-07-24 09:32:28 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:32:28: 2025-07-24 09:32:28 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:32:31: 2025-07-24 09:32:31 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:33:31: 2025-07-24 09:33:31 [32minfo[39m: Successfully retrieved printer list.
+2025-07-24 09:33:58: 2025-07-24 09:33:58 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:33:58: 2025-07-24 09:33:58 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:34:01: 2025-07-24 09:34:01 [32minfo[39m: Successfully processed print job for Canon MF642C/643C/644C UFR II.
+2025-07-24 09:34:24: 2025-07-24 09:34:24 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:34:24: 2025-07-24 09:34:24 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:34:30: 2025-07-24 09:34:30 [32minfo[39m: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 09:39:01: [dotenv@17.2.0] injecting env (1) from .env (tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit)
+2025-07-24 09:39:01: 2025-07-24 09:39:01 [32minfo[39m: Node.js Print Server listening at http://localhost:3000
+2025-07-24 09:39:01: 2025-07-24 09:39:01 [32minfo[39m: Endpoints available:
+2025-07-24 09:39:01: 2025-07-24 09:39:01 [32minfo[39m:   - GET /api/printers
+2025-07-24 09:39:01: 2025-07-24 09:39:01 [32minfo[39m:   - POST /api/print-html (High Quality, Selectable Text)
+2025-07-24 09:39:01: 2025-07-24 09:39:01 [32minfo[39m:   - POST /api/print-base64 (Lower Quality, Image-based)
+2025-07-24 09:42:33: 2025-07-24 09:42:33 [32minfo[39m: Processing /api/print-html request from ::ffff:192.168.2.154
+2025-07-24 09:42:33: 2025-07-24 09:42:33 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:42:39: 2025-07-24 09:42:39 [32minfo[39m: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 09:46:00: 2025-07-24 09:46:00 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:46:00: 2025-07-24 09:46:00 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:46:03: 2025-07-24 09:46:03 [32minfo[39m: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 09:47:01: 2025-07-24 09:47:01 [32minfo[39m: Successfully retrieved printer list.
+2025-07-24 09:47:24: 2025-07-24 09:47:24 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:47:24: 2025-07-24 09:47:24 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:47:28: 2025-07-24 09:47:28 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:52:23: 2025-07-24 09:52:23 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:52:23: 2025-07-24 09:52:23 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:52:26: 2025-07-24 09:52:26 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:53:07: 2025-07-24 09:53:07 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:53:07: 2025-07-24 09:53:07 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:53:49: 2025-07-24 09:53:49 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:54:10: 2025-07-24 09:54:10 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:54:10: 2025-07-24 09:54:10 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:54:27: 2025-07-24 09:54:27 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:54:27: 2025-07-24 09:54:27 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:54:52: 2025-07-24 09:54:52 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:55:10: 2025-07-24 09:55:10 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:56:09: 2025-07-24 09:56:09 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:56:09: 2025-07-24 09:56:09 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:56:48: 2025-07-24 09:56:48 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:57:21: 2025-07-24 09:57:21 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:57:21: 2025-07-24 09:57:21 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:58:33: 2025-07-24 09:58:33 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:58:54: 2025-07-24 09:58:54 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:58:54: 2025-07-24 09:58:54 [32minfo[39m: Received data for /api/print-html
+2025-07-24 09:59:37: 2025-07-24 09:59:37 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 09:59:46: 2025-07-24 09:59:46 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 09:59:46: 2025-07-24 09:59:46 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:00:28: 2025-07-24 10:00:28 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:00:28: 2025-07-24 10:00:28 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:01:06: 2025-07-24 10:01:06 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:01:37: 2025-07-24 10:01:37 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:01:37: 2025-07-24 10:01:37 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:01:49: 2025-07-24 10:01:49 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:01:49: 2025-07-24 10:01:49 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:02:02: 2025-07-24 10:02:02 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:03:06: 2025-07-24 10:03:06 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:03:20: 2025-07-24 10:03:20 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:03:55: 2025-07-24 10:03:55 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:03:55: 2025-07-24 10:03:55 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:04:08: 2025-07-24 10:04:08 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:07:35: 2025-07-24 10:07:35 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:07:35: 2025-07-24 10:07:35 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:07:49: 2025-07-24 10:07:49 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:11:09: 2025-07-24 10:11:09 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:11:09: 2025-07-24 10:11:09 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:11:19: 2025-07-24 10:11:19 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:14:23: 2025-07-24 10:14:23 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:14:23: 2025-07-24 10:14:23 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:14:24: 2025-07-24 10:14:24 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:15:03: 2025-07-24 10:15:03 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:15:03: 2025-07-24 10:15:03 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:15:05: 2025-07-24 10:15:05 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:16:14: 2025-07-24 10:16:14 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:16:14: 2025-07-24 10:16:14 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:16:16: 2025-07-24 10:16:16 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:16:19: 2025-07-24 10:16:19 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:16:19: 2025-07-24 10:16:19 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:16:20: 2025-07-24 10:16:20 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:16:38: 2025-07-24 10:16:38 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:16:38: 2025-07-24 10:16:38 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:16:40: 2025-07-24 10:16:40 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:17:04: 2025-07-24 10:17:04 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:17:04: 2025-07-24 10:17:04 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:17:06: 2025-07-24 10:17:06 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:17:50: 2025-07-24 10:17:50 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:17:50: 2025-07-24 10:17:50 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:17:52: 2025-07-24 10:17:52 [32minfo[39m: Successfully processed print job for CutePDF Writer.
+2025-07-24 10:18:26: 2025-07-24 10:18:26 [32minfo[39m: Successfully retrieved printer list.
+2025-07-24 10:19:43: 2025-07-24 10:19:43 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:19:43: 2025-07-24 10:19:43 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:19:47: 2025-07-24 10:19:47 [32minfo[39m: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 10:23:44: 2025-07-24 10:23:44 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:23:44: 2025-07-24 10:23:44 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:23:48: 2025-07-24 10:23:48 [32minfo[39m: Successfully processed print job for MF642C/643C/644C.
+2025-07-24 10:28:00: 2025-07-24 10:28:00 [32minfo[39m: Processing /api/print-html request from ::ffff:127.0.0.1
+2025-07-24 10:28:00: 2025-07-24 10:28:00 [32minfo[39m: Received data for /api/print-html
+2025-07-24 10:28:02: 2025-07-24 10:28:02 [32minfo[39m: Successfully processed print job for CutePDF Writer.

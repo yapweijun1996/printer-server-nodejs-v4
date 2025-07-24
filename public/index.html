@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printer Server Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Printer Server Control Panel</h1>
+        
+        <div class="card">
+            <h2>Available Printers</h2>
+            <button id="getPrinters">Refresh Printer List</button>
+            <select id="printerList" size="5"></select>
+        </div>
+
+        <div class="card">
+            <h2>Send Test Print</h2>
+            <p>Enter HTML content below and select a printer from the list above.</p>
+            <textarea id="htmlContent" rows="10" placeholder="<h1>Test Page</h1><p>This is a test print from the server.</p>"></textarea>
+            <button id="printButton">Print</button>
+        </div>
+
+        <div id="status" class="status-message">
+            <p>Status: Idle</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
