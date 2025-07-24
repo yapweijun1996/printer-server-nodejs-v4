@@ -62,12 +62,27 @@ goto menu
 :install
 echo --- 1. Installing Node.js dependencies...
 call npm install
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to install Node.js dependencies. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo --- 2. Installing PM2 globally...
 call npm install pm2 -g
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to install PM2 globally. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo --- 3. Installing PM2 Windows Startup globally...
 call npm install pm2-windows-startup -g
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to install pm2-windows-startup. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo Installation complete.
 pause
@@ -76,6 +91,11 @@ goto menu
 :start
 echo Starting the server with PM2...
 call npm run start:prod
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to start the server. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo Server started. Use option [5] to check its status.
 pause
@@ -84,6 +104,11 @@ goto menu
 :stop
 echo Stopping the server...
 call pm2 stop %PM2_APP_NAME%
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to stop the server. It might not be running. Check 'pm2 list'.
+    pause
+    goto menu
+)
 echo.
 echo Server stopped.
 pause
@@ -92,6 +117,11 @@ goto menu
 :restart
 echo Restarting the server...
 call pm2 restart %PM2_APP_NAME%
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to restart the server. It might not be running. Use option [2] to start it.
+    pause
+    goto menu
+)
 echo.
 echo Server restarted.
 pause
@@ -111,9 +141,19 @@ echo --- Enabling auto-startup on system reboot ---
 echo.
 echo 1. Installing the startup service...
 call pm2-startup install
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to install the startup service. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo 2. Saving current process list to run on startup...
 call pm2 save
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to save the process list. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo Auto-startup has been enabled.
 pause
@@ -122,6 +162,11 @@ goto menu
 :startup_off
 echo --- Disabling auto-startup on system reboot ---
 call pm2-startup uninstall
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to uninstall the startup service. Please check the output above.
+    pause
+    goto menu
+)
 echo.
 echo Auto-startup has been disabled.
 pause
@@ -134,6 +179,11 @@ set /p confirm="Are you sure? (y/n): "
 if /i "%confirm%" neq "y" goto menu
 
 call pm2 delete %PM2_APP_NAME%
+if %errorLevel% neq 0 (
+    echo [ERROR] Failed to delete the server from PM2. It might not exist. Check 'pm2 list'.
+    pause
+    goto menu
+)
 echo.
 echo Server has been deleted from PM2.
 pause
