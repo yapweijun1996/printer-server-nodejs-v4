@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       name: 'print-server',
-      // The script path is now relative to the project root, where pm2 is run.
-      script: './index.js',
+      // The script path must be relative to the project root, where pm2 is run.
+      script: './Server/index.js',
       // exec_mode: 'fork' is crucial for stability in simple servers.
       // It prevents PM2 from using the complex 'cluster' mode, which can hide errors.
       exec_mode: 'fork',

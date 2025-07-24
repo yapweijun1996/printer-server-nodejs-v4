@@ -23,7 +23,7 @@ The project has been refactored into a modern, modular, and robust structure.
 -   **Backend**: Node.js, Express.js
 -   **PDF Generation**: Puppeteer (for high-quality, server-side rendering)
 -   **Printing**: `pdf-to-printer` (a cross-platform printing library)
--   **Process Management**: PM2 (for production deployment, configured in `ecosystem.config.cjs`)
+-   **Process Management**: PM2 (for production deployment, configured in `Server/ecosystem.config.cjs`)
 -   **Logging**: Winston (for structured, file-based logging, configured in `Server/config/logger.js`)
 
 ---
@@ -45,10 +45,10 @@ The repository is now organized as follows:
 │   ├── routes/         # Defines the API routes
 │   ├── logs/           # Directory for log files (created automatically)
 │   ├── index.js        # The main server entry point
-│   └── .env            # Environment variables (port, etc.)
+│   ├── .env            # Environment variables (port, etc.)
+│   └── ecosystem.config.cjs # PM2 configuration
 ├── .gitignore
 ├── context.md          # This file
-├── ecosystem.config.cjs # PM2 configuration
 ├── package.json        # Project dependencies and scripts (ROOT)
 └── Readme.md           # Main project documentation
 ```
@@ -69,7 +69,7 @@ The server logic is now split into multiple directories for better maintainabili
 
 ### PM2 (`ecosystem.config.cjs`)
 
-The `ecosystem.config.cjs` file at the root configures PM2 to run the server. It's set up to:
+The `ecosystem.config.cjs` file in the `Server` directory configures PM2 to run the server. It's set up to:
 - Run the server from the project root to ensure `node_modules` are found.
 - Point to the correct entry script (`./Server/index.js`).
 - Redirect all `stdout` and `stderr` to log files in `Server/logs/` for easy debugging.

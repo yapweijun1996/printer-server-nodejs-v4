@@ -275,14 +275,14 @@ npm install pm2 -g
 
 #### Step 2: Start the Application
 
-The project includes an `ecosystem.config.cjs` file at the project root, which is the standard configuration file for PM2.
+The project includes an `ecosystem.config.cjs` file in the `Server` directory, which is the standard configuration file for PM2.
 
 To start the server in production mode, run the following command from the **project root directory**:
 ```bash
 # From the project root
 npm run start:prod
 ```
-This command executes `npx pm2 start ecosystem.config.cjs` and will launch the server in the background.
+This command executes `npx pm2 start Server/ecosystem.config.cjs` and will launch the server in the background.
 
 #### Step 3: Manage the Application
 
@@ -356,7 +356,7 @@ Your print server is now fully configured to run as a persistent background serv
 
 ## Troubleshooting
 
-- **`ERR_MODULE_NOT_FOUND`**: Ensure you have run `npm install` inside the `Server` directory.
+- **`ERR_MODULE_NOT_FOUND`**: Ensure you have run `npm install` from the **project root** directory.
 - **Puppeteer Download Issues**: A stable internet connection is required for the first `npm install`, as it downloads a compatible version of Chromium.
 - **Printer Not Found**: Verify the printer name is correct and that the printer is accessible to the user account running the Node.js process. Use the `/api/printers` endpoint to get a list of valid names.
 
